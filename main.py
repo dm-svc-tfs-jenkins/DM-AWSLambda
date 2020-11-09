@@ -13,6 +13,6 @@ def print_hi(env: string, lname: string):
 	print('Method Parameters: ' + env +' '+lname)
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print_hi('PyCharm','sample')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
