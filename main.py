@@ -6,7 +6,7 @@ import sys
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(env: string, lname: string):
+def print_hi(env, lname):
     # Use a breakpoint in the code line below to debug your script.
 	print('Hi, There')
 	print('Arguments from the Jenkins Job: ' + str(sys.argv[1]), str(sys.argv[2]))
