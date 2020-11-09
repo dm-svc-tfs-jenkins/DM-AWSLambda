@@ -4,7 +4,7 @@ pipeline {
 	stages{
 		stage ('Test Stage') {
 			steps {
-				sh 'python main.py'
+				sh 'python main.py ${Env} ${Lambda}'
 			}
 		}
 	}	
